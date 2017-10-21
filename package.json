@@ -7,7 +7,7 @@
     "readme": "projectz compile"
   },
   "keywords": [],
-  "author": "Øsytein Ø. Olsen <fireneslo@gmail.com>",
+  "author": "Øystein Ø. Olsen <fireneslo@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "simple-git": "^1.80.1"
