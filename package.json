@@ -1,15 +1,28 @@
 {
   "name": "git-match",
   "version": "1.0.0",
-  "description": "",
+  "description": "Find matching branch or nearest commit for the first commit in current branch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "readme": "projectz compile"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Øsytein Ø. Olsen <fireneslo@mail.com>",
+  "license": "MIT",
   "dependencies": {
     "simple-git": "^1.80.1"
-  }
+  },
+  "devDependencies": {
+    "projectz": "^1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FireNeslo/git-match.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FireNeslo/git-match/issues"
+  },
+  "homepage": "https://github.com/FireNeslo/git-match#readme",
+  "maintainers": [],
+  "contributors": []
 }
