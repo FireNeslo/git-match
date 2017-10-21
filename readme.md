@@ -1,6 +1,6 @@
 <!-- TITLE/ -->
 
-<h1>git-match</h1>
+<h1>@fireneslo/git-match</h1>
 
 <!-- /TITLE -->
 
@@ -24,8 +24,8 @@ Find matching branch or nearest commit for the first commit in current branch
 <h2>Install</h2>
 
 <a href="https://npmjs.com" title="npm is a package manager for javascript"><h3>NPM</h3></a><ul>
-<li>Install: <code>npm install --save git-match</code></li>
-<li>Module: <code>require('git-match')</code></li></ul>
+<li>Install: <code>npm install --save @fireneslo/git-match</code></li>
+<li>Module: <code>require('@fireneslo/git-match')</code></li></ul>
 
 <!-- /INSTALL -->
 
