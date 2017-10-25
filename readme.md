@@ -54,7 +54,7 @@ const result = await match('babelify', {
 
 Unless stated otherwise all works are:
 
-<ul><li>Copyright &copy; Øsytein Ø. Olsen</li></ul>
+<ul><li>Copyright &copy; Øystein Ø. Olsen</li></ul>
 
 and licensed under:
 
