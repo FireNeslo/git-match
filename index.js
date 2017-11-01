@@ -23,7 +23,7 @@ async function lookup({ current, history }, target) {
   if(match) return current
 
   const { all: [ commit ] } = await git(target)
-    .log([`--before=${from.date}`, '--max-count=1'])
+    .log([ 'master', `--before=${from.date}`, '--max-count=1'])
 
   if(commit) return commit.hash.trim()
 

@@ -4,7 +4,8 @@
   "description": "Find matching branch or nearest commit for the first commit in current branch",
   "main": "index.js",
   "scripts": {
-    "readme": "projectz compile"
+    "readme": "projectz compile",
+    "test": "jest"
   },
   "keywords": [],
   "author": "Øystein Ø. Olsen <fireneslo@gmail.com>",
@@ -13,6 +14,7 @@
     "simple-git": "^1.80.1"
   },
   "devDependencies": {
+    "jest": "^21.2.1",
     "projectz": "^1.4.0"
   },
   "repository": {
