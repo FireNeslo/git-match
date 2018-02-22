@@ -1,6 +1,6 @@
 {
   "name": "@fireneslo/git-match",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find matching branch or nearest commit for the first commit in current branch",
   "main": "index.js",
   "scripts": {
