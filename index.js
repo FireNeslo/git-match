@@ -15,7 +15,10 @@ async function lookup({ current, history }, target) {
   let revision = null
 
   if(current !== 'master') {
-    revision = git(target).silent(true).revparse([current]).catch(e => {})
+    revision = git(target)
+      .silent(true)
+      .listRemote(['--heads', 'origin', current])
+      .catch(e => {})
   }
 
   const [ { all: [ from ] }, match ] = await Promise.all([ history, revision ])
